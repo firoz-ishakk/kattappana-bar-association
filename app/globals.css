@@ -35,7 +35,7 @@ header.solid{background:rgba(16,38,31,.96);box-shadow:0 2px 18px rgba(0,0,0,.25)
 .nav{display:flex;align-items:center;justify-content:space-between;min-height:68px;padding-block:8px}
 .brand{font-family:var(--serif);font-size:1.35rem;font-weight:700;color:#fff;text-decoration:none;letter-spacing:.01em;line-height:1.1;text-shadow:0 1px 10px rgba(0,0,0,.45)}
 .brand span{color:#fff}
-.brand img{display:block;border-radius:50%;box-shadow:0 2px 12px rgba(0,0,0,.35)}
+.brand img{display:block;filter:drop-shadow(0 1px 3px rgba(0,0,0,.55))}
 nav ul{display:flex;gap:30px;list-style:none;margin:0;padding:0}
 nav a{color:#e9efec;text-decoration:none;font-weight:600;font-size:.95rem;padding:6px 0;border-bottom:2px solid transparent}
 nav a:hover{border-color:var(--brass)}
@@ -53,6 +53,24 @@ nav a:hover{border-color:var(--brass)}
 .btn.fill{background:var(--brass);color:#10261f}.btn.fill:hover{background:#c6a35f}
 .btn.ghost{color:#fff}.btn.ghost:hover{background:rgba(255,255,255,.12)}
 @keyframes settle{from{transform:scale(1.07);opacity:.6}to{transform:scale(1);opacity:1}}
+
+/* about intro + carousel */
+.about-intro{background:var(--paper)}
+.about-intro .title{margin-bottom:28px}
+.carousel{margin:0 0 36px}
+.carousel-stage{position:relative;aspect-ratio:1024/473;overflow:hidden;background:#dfe6e2}
+.carousel-slide{position:absolute;inset:0;opacity:0;transition:opacity .7s ease;pointer-events:none}
+.carousel-slide.is-active{opacity:1;pointer-events:auto}
+.carousel-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:2;width:44px;height:44px;border:0;border-radius:50%;background:rgba(16,38,31,.72);color:#fff;font-size:1.6rem;line-height:1;cursor:pointer;display:grid;place-items:center;transition:background .2s}
+.carousel-btn:hover{background:rgba(16,38,31,.92)}
+.carousel-btn.prev{left:14px}
+.carousel-btn.next{right:14px}
+.carousel-dots{display:flex;justify-content:center;gap:10px;margin-top:16px}
+.carousel-dots button{width:9px;height:9px;padding:0;border:0;border-radius:50%;background:var(--line);cursor:pointer}
+.carousel-dots button.is-active{background:var(--brass);transform:scale(1.15)}
+.about-copy{width:100%;max-width:none;margin:0;color:var(--ink)}
+.about-copy p{margin:0 0 1.15em;font-size:1.05rem;line-height:1.75;color:var(--muted)}
+.about-copy p:last-child{margin-bottom:0}
 
 /* sections */
 section{padding:clamp(64px,10vw,116px) 0}

@@ -48,12 +48,12 @@ export default function Header() {
     >
       <div className="wrap nav">
         <Link
-          className="brand inline-flex items-center gap-3 text-white"
+          className="brand inline-flex items-center gap-3"
           href="/"
           aria-label="The Bar Association Kattappana"
         >
-          <Logo />
-          <span className="leading-tight text-white">
+          <Logo variant="white" />
+          <span className="leading-tight">
             The Bar Association
             <br />
             Kattappana
