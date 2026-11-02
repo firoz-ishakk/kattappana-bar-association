@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "About The Kattappana Bar Association, Kattappana, Idukki. Our story and objectives are coming soon.",
+    "About The Bar Association Kattappana, Kattappana, Idukki. Our story and objectives are coming soon.",
   openGraph: {
-    title: "About Us | The Kattappana Bar Association",
+    title: "About Us | The Bar Association Kattappana",
     description: "Firm On The Hills, Devoted To Justice.",
   },
 };

@@ -1,6 +1,6 @@
-# The Kattappana Bar Association
+# The Bar Association Kattappana
 
-Official website for The Kattappana Bar Association, Court Complex, Kattappana, Idukki.
+Official website for The Bar Association Kattappana, Court Complex, Kattappana, Idukki.
 
 ## Getting started
 
@@ -16,3 +16,7 @@ Open [http://localhost:3000](http://localhost:3000).
 - `npm run dev` — start the development server
 - `npm run build` — create a production build
 - `npm start` — run the production server
+
+## Styling
+
+Tailwind CSS v4 is enabled. Use utility classes in components (e.g. `text-xl`, `bg-forest`, `font-display`). Existing custom classes in `app/globals.css` still work alongside Tailwind.

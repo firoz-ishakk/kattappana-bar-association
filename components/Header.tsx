@@ -3,10 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import Logo from "@/components/Logo";
 
 const links = [
   { href: "/", label: "Home", match: (path: string) => path === "/" },
-  { href: "/#courts", label: "Our Courts" },
+  { href: "/#courts", label: "Our Judicial Officers" },
   { href: "/#bearers", label: "Office Bearers" },
   {
     href: "/about",
@@ -46,10 +47,17 @@ export default function Header() {
         .join(" ")}
     >
       <div className="wrap nav">
-        <Link className="brand" href="/">
-          The Kattappana
-          <br />
-          Bar Association
+        <Link
+          className="brand inline-flex items-center gap-3 text-white"
+          href="/"
+          aria-label="The Bar Association Kattappana"
+        >
+          <Logo />
+          <span className="leading-tight text-white">
+            The Bar Association
+            <br />
+            Kattappana
+          </span>
         </Link>
         <button
           className="menu-btn"

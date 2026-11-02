@@ -86,7 +86,7 @@ export default function HomePage() {
           style={{ objectFit: "cover", objectPosition: "35% center" }}
         />
         <div className="wrap">
-          <p className="name">The Kattappana Bar Association</p>
+          <p className="name text-xl">The Bar Association Kattappana</p>
           <h1>Firm On The Hills, Devoted To Justice.</h1>
           <div className="cta">
             <Link className="btn fill" href="#bearers">

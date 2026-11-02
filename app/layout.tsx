@@ -21,13 +21,13 @@ const mulish = Mulish({
 
 export const metadata: Metadata = {
   title: {
-    default: "The Kattappana Bar Association | Court Complex, Kattappana, Idukki",
-    template: "%s | The Kattappana Bar Association",
+    default: "The Bar Association Kattappana | Court Complex, Kattappana, Idukki",
+    template: "%s | The Bar Association Kattappana",
   },
   description:
-    "Official website of The Kattappana Bar Association, Court Complex, ITI Junction, Kattappana, Idukki. Meet our office bearers and the presiding officers of the Kattappana courts.",
+    "Official website of The Bar Association Kattappana, Court Complex, ITI Junction, Kattappana, Idukki. Meet our office bearers and the presiding officers of the Kattappana courts.",
   openGraph: {
-    title: "The Kattappana Bar Association | Court Complex, Kattappana, Idukki",
+    title: "The Bar Association Kattappana | Court Complex, Kattappana, Idukki",
     description: "Firm On The Hills, Devoted To Justice.",
     type: "website",
   },
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "The Kattappana Bar Association",
+  name: "The Bar Association Kattappana",
   description: "Bar association of the Kattappana courts, Idukki, Kerala.",
   telephone: "+919747221318",
   address: {

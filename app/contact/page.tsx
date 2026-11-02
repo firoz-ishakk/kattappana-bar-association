@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact The Kattappana Bar Association, Court Complex, ITI Junction, Kattappana, Idukki - 685508. Phone +91 97472 21318.",
+    "Contact The Bar Association Kattappana, Court Complex, ITI Junction, Kattappana, Idukki - 685508. Phone +91 97472 21318.",
   openGraph: {
-    title: "Contact Us | The Kattappana Bar Association",
+    title: "Contact Us | The Bar Association Kattappana",
     description: "Firm On The Hills, Devoted To Justice.",
   },
 };
@@ -20,7 +20,7 @@ export default function ContactPage() {
           <dl>
             <dt>Address</dt>
             <dd>
-              The Kattappana Bar Association
+              The Bar Association Kattappana
               <br />
               Court Complex, ITI Junction
               <br />
