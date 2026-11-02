@@ -10,6 +10,11 @@ const links = [
   { href: "/#courts", label: "Our Judicial Officers" },
   { href: "/#bearers", label: "Office Bearers" },
   {
+    href: "/members",
+    label: "Our Members",
+    match: (path: string) => path === "/members",
+  },
+  {
     href: "/about",
     label: "About Us",
     match: (path: string) => path === "/about",

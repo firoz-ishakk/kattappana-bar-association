@@ -1,30 +1,14 @@
 import type { Metadata } from "next";
-import ImageCarousel from "@/components/ImageCarousel";
 
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Established in 1993, the Bar Association, Kattappana, is one of the premier professional bodies in Idukki District, representing advocates across the High Range of Idukki.",
+    "The Court Complex, Kattappana was established in 1993 through the efforts of advocates from Kattappana and neighbouring areas. Learn the history of the courts and the Bar Association.",
   openGraph: {
     title: "About Us | The Bar Association Kattappana",
     description: "Firm On The Hills, Devoted To Justice.",
   },
 };
-
-const aboutSlides = [
-  {
-    src: "/assets/about-1.jpg",
-    alt: "Judicial Complex, Kattappana Grama Panchayat",
-  },
-  {
-    src: "/assets/about-2.jpg",
-    alt: "Court Complex and Bar Association premises, Kattappana",
-  },
-  {
-    src: "/assets/about-3.jpg",
-    alt: "Bar Association Kattappana building",
-  },
-];
 
 export default function AboutPage() {
   return (
@@ -32,28 +16,63 @@ export default function AboutPage() {
       <div className="wrap" style={{ paddingTop: 40 }}>
         <hr className="rule" />
         <h1 className="title">About Us</h1>
-        <ImageCarousel slides={aboutSlides} />
         <div className="about-copy rv">
           <p>
-            Established in 1993, the Bar Association, Kattappana, stands as one
-            of the premier professional bodies in Idukki District, representing
-            advocates practising in Kattappana and across the High Range of
-            Idukki. The Association serves as a collective voice of the legal
-            fraternity, fostering professional excellence, upholding the rule of
-            law, and strengthening the administration of justice.
+            The Court Complex, Kattappana was established in 1993, following the
+            persistent efforts of a group of advocates from Kattappana and its
+            neighbouring areas, who had come together to form an Advocates
+            Association in 1991. Recognising the need for a judicial
+            establishment at Kattappana, the Association submitted several
+            representations before the Hon&apos;ble High Court of Kerala and the
+            Government. As a result of the continuous efforts and
+            representations made by the office bearers and members, the Sub Court
+            originally proposed to be established at Thalassery was relocated to
+            Kattappana. Accordingly, the Sub Court, Kattappana, commenced
+            functioning in a rented building in 1993. This was reportedly the
+            first instance of a Sub Court being established at a place where no
+            Munsiff&apos;s Court was functioning. Subsequently, in 1995, the
+            Munsiff-Magistrate Court was also established and commenced
+            functioning in the same rented premises.
           </p>
           <p>
-            Functioning within the regulatory framework of the Bar Council of
-            India and the Bar Council of Kerala, the Association is committed to
-            protecting the professional interests of its members while upholding
-            the highest standards of legal ethics, integrity, and responsibility.
+            Considering the growing number of cases and the inconvenience caused
+            to litigants due to the limited facilities in the rented building,
+            the Kattappana Grama Panchayat came forward with a proposal to
+            construct a permanent Court Complex on its property. The proposal was
+            accepted by the Hon&apos;ble High Court of Kerala, and construction
+            commenced in 2002. The building was completed in 2004 and handed over
+            to the Judiciary.
           </p>
           <p>
-            Rooted in professional integrity, united by a shared commitment to
-            justice, and dedicated to public service, the Bar Association,
-            Kattappana, continues to uphold the values and traditions of the
-            legal profession while contributing to a fairer, more equitable, and
-            just society.
+            In 2014, the Family Court was established at Kattappana and initially
+            commenced functioning in a rented building. In 2015, funds were
+            allotted for the construction of an additional Court Complex,
+            pursuant to proposals submitted before the Government. Construction
+            commenced in 2018 and was completed in 2022. Meanwhile, the Gram
+            Nyayalaya was established in 2016, followed by the Special Court for
+            the Trial of POCSO Cases in 2020. Both these courts were accommodated
+            on the rooftop of the old Court Complex, where roofing sheets and
+            partition structures were erected to provide the necessary
+            facilities. The entire expenditure towards creating the
+            infrastructure required for the functioning of these two courts was
+            met through funds mobilised exclusively from the members of the Bar
+            Association.
+          </p>
+          <p>
+            In 2023, the Family Court was shifted from its rented premises to the
+            newly constructed additional Court Complex. The new building also
+            accommodates the Bar Association Hall, Canteen, Library and the
+            office of the Taluk Legal Services Authority (T.L.S.A.), providing
+            improved facilities for advocates, litigants and other stakeholders
+            in the justice delivery system.
+          </p>
+          <p>
+            From its humble beginnings in a rented building to the establishment
+            of multiple courts and the development of permanent judicial
+            infrastructure, the growth of the Kattappana Court Complex stands as
+            a testament to the vision, perseverance and collective contributions
+            of successive office bearers and members of the Bar Association,
+            Kattappana over the years.
           </p>
         </div>
       </div>
